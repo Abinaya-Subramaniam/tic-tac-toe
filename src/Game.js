@@ -20,9 +20,9 @@ const Game = () => {
         setStepNumber(newHistory.length);
     };
 
-    const jumpTo = (step) => {
+    /*const jumpTo = (step) => {
         setStepNumber(step);
-    };
+    };*/
 
     const current = history[stepNumber];
     const winner = calculateWinner(current.squares);
